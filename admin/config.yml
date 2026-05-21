@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main
 
-media_folder: public/uploads
+media_folder: uploads
 public_folder: /uploads
 
 collections:
@@ -11,7 +11,7 @@ collections:
     files:
       - name: hero
         label: 🏖️ Главный экран (Hero)
-        file: public/content/hero.json
+        file: content/hero.json
         fields:
           - { label: Бейдж, name: badge, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -23,7 +23,7 @@ collections:
 
       - name: features
         label: ✨ Преимущества
-        file: public/content/features.json
+        file: content/features.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -39,7 +39,7 @@ collections:
 
       - name: pricing
         label: 💰 Цены и смены
-        file: public/content/pricing.json
+        file: content/pricing.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -100,7 +100,7 @@ collections:
 
       - name: accommodation
         label: 🏠 Проживание
-        file: public/content/accommodation.json
+        file: content/accommodation.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -123,7 +123,7 @@ collections:
 
       - name: transfer
         label: 🚌 Трансфер
-        file: public/content/transfer.json
+        file: content/transfer.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -143,7 +143,7 @@ collections:
 
       - name: dance
         label: 💃 Танцевальный интенсив
-        file: public/content/dance.json
+        file: content/dance.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -163,7 +163,7 @@ collections:
 
       - name: sports-camps
         label: 🏆 Спортивные сборы
-        file: public/content/sports-camps.json
+        file: content/sports-camps.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -183,7 +183,7 @@ collections:
 
       - name: activities
         label: 🎯 Программа и активности
-        file: public/content/activities.json
+        file: content/activities.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -230,7 +230,7 @@ collections:
 
       - name: gallery
         label: 📸 Галерея
-        file: public/content/gallery.json
+        file: content/gallery.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -245,7 +245,7 @@ collections:
 
       - name: location
         label: 📍 Локация
-        file: public/content/location.json
+        file: content/location.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -263,7 +263,7 @@ collections:
 
       - name: reviews
         label: 💬 Отзывы
-        file: public/content/reviews.json
+        file: content/reviews.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -290,7 +290,7 @@ collections:
 
       - name: contact
         label: 📝 Форма заявки
-        file: public/content/contact.json
+        file: content/contact.json
         fields:
           - { label: Название секции, name: sectionLabel, widget: string }
           - { label: Заголовок, name: title, widget: string }
@@ -317,7 +317,7 @@ collections:
 
       - name: footer
         label: 👣 Подвал (Footer)
-        file: public/content/footer.json
+        file: content/footer.json
         fields:
           - label: Бренд
             name: brand
